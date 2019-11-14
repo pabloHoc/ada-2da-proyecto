@@ -1,0 +1,99 @@
+body {
+  font-size: var(--text-base-size);
+  font-family: var(--font-primary);
+  color: var(--color-text);
+}
+
+h1, h2, h3, h4, form legend {
+  color: var(--color-text-heading);
+  margin-bottom: var(--line-space-xxs);
+  line-height: var(--heading-line-height);
+}
+
+/* text size */
+.text--xxxl {
+  font-size: var(--text-xxxl);
+}
+
+h1, .text--xxl {
+  font-size: var(--text-xxl);
+  margin-bottom: var(--line-space-lg);
+}
+
+h2, .text--xl {
+  font-size: var(--text-xl);
+  margin-bottom: var(--line-space-md);
+}
+
+h3, .text--lg {
+  font-size: var(--text-lg);
+}
+
+h4, .text--md {
+  font-size: var(--text-md);
+}
+
+.text--sm, small {
+  font-size: var(--text-sm);
+}
+
+.text--xs {
+  font-size: var(--text-xs);
+}
+
+p {
+  line-height: var(--body-line-height);
+  margin-bottom: var(--line-space-sm);
+}
+
+a {
+  color: var(--color-link);
+}
+
+a:visited {
+  color: var(--color-link-visited);
+}
+
+
+b, strong {
+  font-weight: bold;
+}
+
+.text-container h2, 
+.text-container h3, 
+.text-container h4 {
+  margin-top: var(--space-sm);
+}
+  
+.text-container ul, 
+.text-container ol, 
+.text-container p {
+  margin-bottom: var(--space-md);
+}
+
+.text-container ul, 
+.text-container ol {
+  list-style-position: outside;
+  padding-left: 24px;
+}
+
+.text-container ul {
+  list-style-type: disc;
+}
+
+.text-container ol {
+  list-style-type: decimal;
+}
+
+.text-container ul li, 
+.text-container ol li {
+  line-height: var(--body-line-height);
+}
+  
+.text-container em {
+  font-style: italic;
+}
+
+.text-container u {
+  text-decoration: underline;
+}

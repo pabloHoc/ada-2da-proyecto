@@ -1,0 +1,14 @@
+/* FOUNDATIONS */
+
+@import url('foundations/_colors.css');
+@import url('foundations/_spacing.css');
+@import url('foundations/_typography.css');
+
+/* ATOMS */
+
+@import url('atoms/_text.css');
+@import url('atoms/_button.css');
+
+/* UTILS */
+
+@import url('utilities/_margins.css');

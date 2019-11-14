@@ -1,0 +1,46 @@
+/*
+===========================================================
+                        MARGINS
+===========================================================
+*/
+
+/* vertical margins */
+.mt, .mt--md {
+  margin-top: var(--space-md);
+}
+
+.mt--sm {
+  margin-top: var(--space-sm);
+}
+
+.mt--lg {
+  margin-top: var(--space-lg);
+}
+
+.mt--xl {
+  margin-top: var(--space-xl);
+}
+
+.mt--xxl {
+  margin-top: var(--space-xxl);
+}
+
+.ml, .ml--md {
+  margin-bottom: var(--space-md);
+}
+
+.ml--sm {
+  margin-bottom: var(--space-sm);
+}
+
+.ml--lg {
+  margin-bottom: var(--space-lg);
+}
+
+.ml--xl {
+  margin-bottom: var(--space-xl);
+}
+
+.ml--xxl {
+  margin-bottom: var(--space-xxl);
+}
